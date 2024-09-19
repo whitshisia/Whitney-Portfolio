@@ -8,7 +8,7 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
       />
-     <link rel="stylesheet" href="./assets/css/small.css">
+     <!-- <link rel="stylesheet" href="./assets/css/small.css"> -->
      <!-- FONTAWESOME -->
       <link 
       rel="stylesheet"
@@ -70,12 +70,11 @@
                 <div
                   class="color-mode d-lg-flex justify-content-center align-items-center"
                 >
-                  <img border-radius= "50%"
+                  <div 
                     id="imgplus"
                     class="color-mode-icon"
-                    src="./assets/images/shi.jpg"
-                    onmouseover="this.style.cursor='pointer'"
-                  />
+                   ></div>
+                  </div> 
                 </div>
               </div>
             </ul>
@@ -122,13 +121,10 @@
             
             <div class="col-lg-5 col-md-12 col-12">
               <div class="about-image jpg">
-                <img border-radius= "50%"
-                  src="./assets/images/shi.jpg"
-                  class="img-fluid"
-                     alt="jpg image"
-                />
+                  <img src="./assets/images/shi.jpg" class="img-fluid about-img" alt="jpg image">
               </div>
-            </div>
+          </div>
+          
             
         </div>
       </section>
@@ -145,7 +141,7 @@
               <div class="portfolio">
                 <img
                   class="project-img"
-                  src="./assets/images/project1.jpg"
+                  src="https://media.istockphoto.com/id/1407443631/photo/white-mini-bus-is-moving-motion-blur-along-city-highway-bypass-road-with-beautiful-sky-before.jpg?s=612x612&w=0&k=20&c=xNc9mOFroLXnveRk7zNNoAsXiXyLpetk3smwFyYCEVQ="
                   alt="Shopping Cart Image"
                 />
                 <div class="project-card">
@@ -182,6 +178,43 @@
                   </div>
                 </div>
               </div>
+              
+              <div class="portfolio"></div>
+                <div class="project-card">
+                  <div class="project-card__header">
+                    <h6 class="project-card__tag">Personal Project</h6>
+                    <h4 class="project-card__title">Library Management</h4>
+                  </div>
+                  
+                  <div class="project-card__body wow fadeIn">
+                    <p class="project-card__text">
+                      I developed a library management system for school library. The systems mains objective was to
+                      facilitate the books borrowing process making it easier to keep track of the borrowed books.
+                    </p>
+                  </div>
+                  <div class="project-card__footer">
+                    <ul class="project-card__skills-list">
+                      <li class="list-item">Python</li>
+                      <li class="list-item">Flask</li>
+                      <li class="list-item">SQL</li>
+                    </ul>
+                    <ul class="project-card__links-list">
+                      <li class="list-item">
+                        <a
+                          href="https://github.com/whitshisia/PY-3"
+                          target="_blank"
+                          rel="noopener"
+                          ><img
+                            class="icon icon--md"
+                            src="./assets/images/icons8-github.svg"
+                            alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
               <a
                 href="https://github.com/whitshisia"
                 class="btn custom-btn custom-btn-bg custom-btn-link"
@@ -242,6 +275,7 @@
                   <div class="timeline-info">
                     <h3><span>CSS</span></h3>
                     <p>
+                      CSS and its frameworks such as Bootstrap and Tailwind.
                       Cascading Style Sheets (CSS) is a simple mechanism for
                       adding style (e.g., fonts, colors, spacing) to Web
                       documents.
@@ -268,7 +302,7 @@
                 </div>
                 <div class="timeline-wrapper">
                   <div class="timeline-yr">
-                    <span><i class="fab fab fa-node fa-2x"></i></span>
+                    <span><i class="fab fab fa-python fa-2x"></i></span>
                   </div>
                   <div class="timeline-info">
                     <h3><span>Python & Flask</span><small>Back-End </small></h3>
@@ -280,7 +314,7 @@
                 </div>
                 <div class="timeline-wrapper">
                   <div class="timeline-yr">
-                    <span><i class="fab fa-bootstrap fa-2x"></i></span>
+                    <span><i class="fab fa-tailwind fa-2x"></i></span>
                   </div>
                   <div class="timeline-info">
                     <h3><span>Tailwind</span><small>Css Framework</small></h3>
@@ -394,26 +428,5 @@
         </div>
       </footer>
   
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"
-      ></script>
-      <script src="./assets/js/scroll.js"></script>
-      <script src="./assets/js/custom.js"></script>
-      <script src="./assets/js/min.js"></script>
-      <script>
-        new WOW().init();
-      </script>
 </body>
 </html>

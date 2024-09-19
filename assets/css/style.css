@@ -1,5 +1,7 @@
+/* font import */
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 
+/* custom scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -11,20 +13,20 @@
 ::-webkit-scrollbar-track {
     background: #ffffff;
 }
-
+/* root */
 :root {
     --primary-color: #4B0082;
 }
-
+/* default body style */
 body {
     font-family: "Product Sans", sans-serif;
     padding-top: 70px;
 }
-
+/* full screen section padding */
 .full-screen {
     padding: 8rem 0;
 }
-
+/* small text style */
 .small-text {
     color: #5b5b5b;
     font-size: 14px;
@@ -33,12 +35,12 @@ body {
     border-radius: 50px;
     letter-spacing: 0.2px;
 }
-
+/* icon size */
 .codewars {
     width: 13px;
     height: 13px;
 }
-
+/* ul reset */
 ul {
     margin: 0;
     padding: 0;
@@ -47,7 +49,7 @@ ul {
 ul li {
     list-style: none;
 }
-
+/* anchor tag style */
 a {
     font-weight: normal;
     text-decoration: none !important;
@@ -57,24 +59,19 @@ a {
 a:hover {
     color: var(--primary-color) !important;
 }
-
+/* navbar brand */
 .navbar-brand .uil {
     font-size: 40px;
 }
-
+/* paragraph style */
 p {
     font-size: 18px;
     font-weight: 300;
     line-height: 1.5;
     color: #5b5b5b;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/* head styling */
+h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
     letter-spacing: -1px;
 }
@@ -95,12 +92,11 @@ h3 {
     color: #484848;
 }
 
-h3,
-b,
+h3,b,
 strong {
     font-weight: bold;
 }
-
+/* button styling */
 .custom-btn {
     background: #eee;
     color: #5b5b5b;
@@ -126,7 +122,21 @@ strong {
     background: var(--primary-color);
     color: #ffffff !important;
 }
+/* img styling*/
+.about-img {
+    width: 50%;  
+    height: 55%; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto; 
+}
 
+
+.about-img:hover {
+    cursor: pointer;
+}
+
+/* animated text styling */
 .animated {
     position: relative;
 }
@@ -197,7 +207,7 @@ strong {
         opacity: 0;
     }
 }
-
+/* navbar animation */
 .navbar {
     position: fixed;
     top: 0;
@@ -306,12 +316,13 @@ strong {
     position: relative;
 }
 
+/* copyright style */
 .copyright-text {
     font-size: 16px;
     font-weight: normal;
     display: block;
 }
-
+/* color mode */
 .color-mode {
     font-weight: bold;
     cursor: pointer;
@@ -323,10 +334,16 @@ strong {
 }
 
 #imgplus {
+    background-image: url('https://www.svgrepo.com/show/361086/color-mode.svg');
+    background-size: cover;
+    background-position: center;
     width: 35px;
     height: 35px;
+    border-radius: 50%;
 }
-
+#imgplus:hover {
+    cursor: pointer;
+}
 .strange {
     color: var(--primary-color);
 }
@@ -345,7 +362,7 @@ strong {
     font-size: 30px;
     color: #ffffff;
 }
-
+/* dark mode */
 .dark-mode {
     background: #0c0c0d;
 }
@@ -456,10 +473,7 @@ strong {
     margin-left: 15px;
 }
 
-.google-map iframe {
-    width: 100%;
-}
-
+/* contact form */
 .contact-form {
     position: relative;
 }
@@ -506,7 +520,7 @@ strong {
 .social-links .uil:hover {
     color: var(--primary-color);
 }
-
+/* projects */
 .project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -626,14 +640,14 @@ strong {
         padding-bottom: 4rem;
     }
 
-    .color-mode {
+    /* .color-mode {
         display: none;
-    }
+    } */
 
-    .about-image {
-        margin-top: 4em;
+    /* .about-image {
+        margin-top: 2em;
         
-    }
+    } */
 
     .mobile-mt-2,
     .contact-form {
@@ -863,7 +877,7 @@ strong {
         height: 15.875rem;
         -o-object-fit: contain;
         object-fit: contain;
-        border: 1px solid whitesmoke;
+        /* border: 1px solid whitesmoke; */
     }
 
     .project-card {
