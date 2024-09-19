@@ -8,7 +8,6 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
       />
-     <!-- <link rel="stylesheet" href="./assets/css/small.css"> -->
      <!-- FONTAWESOME -->
       <link 
       rel="stylesheet"
@@ -24,113 +23,66 @@
     
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="/"> <i class="uil uil-user"></i>WHITNEY SHISIA </a>
-  
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a data-scroll href="#project" class="nav-link"
-                  ><span data-hover="Projects">Projects</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a data-scroll href="#skills" class="nav-link"
-                  ><span data-hover="Skills">Skills</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="https://drive.google.com/file/d/1sveMbozNsrnb3qCTngPRcu7SNWaxgscn/view?usp=sharing" target="_blank" class="nav-link"
-                  ><span data-hover="Resume">Resume</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a data-scroll href="#contact" class="nav-link"
-                  ><span data-hover="Contact">Contact</span></a
-                >
-              </li>
-            </ul>
-  
-            <ul class="navbar-nav ml-lg-auto">
-              <div class="ml-lg-4">
-                <div
-                  class="color-mode d-lg-flex justify-content-center align-items-center"
-                >
-                  <div 
-                    id="imgplus"
-                    class="color-mode-icon"
-                   ></div>
-                  </div> 
-                </div>
-              </div>
-            </ul>
-          </div>
+      <div class="container">
+        <a class="navbar-brand" href="/">WHITNEY SHISIA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a data-scroll href="#project" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a data-scroll href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://drive.google.com/file/d/1sveMbozNsrnb3qCTngPRcu7SNWaxgscn/view?usp=sharing" target="_blank" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a data-scroll href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-  
+      </div>
+  </nav>
+
       <!-- ABOUT -->
-      <section
-        class="about full-screen d-lg-flex justify-content-center align-items-center"
-        id="about"
-      >
+      <section class="about full-screen justify-content-center align-items-center" id="about">
         <div class="container">
           <div class="row">
             <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
               <div class="about-text">
-                <h1 class="animated animated-text">
+                <h1 class="animated-text">
                   <span class="mr-2">Hey, I'm</span>
-                  <div class="animated-info">
-                    <span class="animated-item">Whitney Shisia</span>
-                    <span class="animated-item">a Developer</span>
-                  </div>
+                  <span class="changing-text">
+                    <span class="text-item">Whitney Shisia</span>
+                    <span class="text-item">a Developer</span>
+                  </span>
                 </h1>
-                <p>
-                  I am an undergraduate student passionate about Web Development.
-                </p>
+                <p>I am an undergraduate student passionate about Web Development.</p>
                 <div class="custom-btn-group mt-4">
-                  <a
-                    href="https://drive.google.com/file/d/1sveMbozNsrnb3qCTngPRcu7SNWaxgscn/view?usp=sharing"
-                    target="_blank"
-                    class="btn mr-lg-2 custom-btn"
-                    download
-                    ><i class="uil uil-file-alt"></i> Download Resume</a
-                  >
-                  <a
-                    href="#contact"
-                    class="btn custom-btn custom-btn-bg custom-btn-link"
-                    >Contact Me</a
-                  >
+                  <a href="https://drive.google.com/file/d/1sveMbozNsrnb3qCTngPRcu7SNWaxgscn/view?usp=sharing"
+                     target="_blank" class="btn mr-lg-2 custom-btn" download>
+                     <i class="uil uil-file-alt"></i> Download Resume
+                  </a>
+                  <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact Me</a>
                 </div>
               </div>
             </div>
-            
-            
             <div class="col-lg-5 col-md-12 col-12">
               <div class="about-image jpg">
-                  <img src="./assets/images/shi.jpg" class="img-fluid about-img" alt="jpg image">
+                <img src="./assets/images/shi.jpg" class="img-fluid about-img" alt="jpg image">
               </div>
+            </div>
           </div>
-          
-            
         </div>
-      </section>
+    </section>
+
       
           <!-- PROJECTS -->
-        <section class="project-section">
+        <section class="project-section" id="project">
           <div class="container">
               <div class="project-container">
                   <div class="project-card">
@@ -213,9 +165,7 @@
                       <span>React</span>
                     </h3>
                     <p>
-                      React is a JavaScript library for building user interfaces.
-                      It is maintained by Facebook and a community of individual
-                      developers and companies.
+                      I have built dynamic and responsive user interfaces using React, leveraging component-based architecture to improve scalability and maintainability. My experience includes integrating React with various backend APIs to create seamless user experiences.
                     </p>
                   </div>
                 </div>
@@ -227,8 +177,7 @@
                   <div class="timeline-info">
                     <h3><span>Javascript</span><small>Language</small></h3>
                     <p>
-                      JavaScript is a lightweight, interpreted, or just-in-time
-                      compiled programming language with first-class functions.
+                      With a deep understanding of JavaScript, I have developed interactive web applications and solved complex client-side logic. I am proficient in writing clean, modular, and efficient code that enhances performance and functionality.
                     </p>
                   </div>
                 </div>
@@ -240,10 +189,7 @@
                   <div class="timeline-info">
                     <h3><span>CSS</span></h3>
                     <p>
-                      CSS and its frameworks such as Bootstrap and Tailwind.
-                      Cascading Style Sheets (CSS) is a simple mechanism for
-                      adding style (e.g., fonts, colors, spacing) to Web
-                      documents.
+                      I have extensive experience in writing clean and efficient CSS to enhance the visual presentation of websites. From animations to responsive layouts, I ensure that the user experience is aesthetically pleasing and accessible on all devices.
                     </p>
                   </div>
                 </div>
@@ -261,8 +207,7 @@
                   <div class="timeline-info">
                     <h3><span>Monday</span><small>project management</small></h3>
                     <p>
-                      Monday is a project management software.Allowing one to manage each project given.
-                    </p>
+                      I have effectively utilized Monday.com to manage team workflows, tracking tasks and deadlines to ensure project milestones are met. I am proficient in customizing boards, automating workflows, and integrating third-party tools to optimize project management.   </p>
                   </div>
                 </div>
                 <div class="timeline-wrapper">
@@ -272,8 +217,7 @@
                   <div class="timeline-info">
                     <h3><span>Python & Flask</span><small>Back-End </small></h3>
                     <p>
-                      Python is a high-level, general-purpose programming language.
-                      It is dynamically typed and garbage-collected.
+                      I have used Python to build RESTful APIs and backend services, ensuring smooth data flow between the front end and databases. My expertise also extends to automating tasks and creating efficient scripts for various development and operational purposes.
                     </p>
                   </div>
                 </div>
@@ -284,8 +228,7 @@
                   <div class="timeline-info">
                     <h3><span>Tailwind</span><small>Css Framework</small></h3>
                     <p>
-                      Tailwind is a utility-first CSS framework.
-                      It doesn't include any JavaScript.
+                      I have styled modern web applications using Tailwind CSS, taking advantage of its utility-first framework to quickly create custom, responsive designs. My experience includes optimizing styles for performance and ensuring consistency across different components.
                     </p>
                   </div>
                 </div>
